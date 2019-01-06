@@ -1,0 +1,79 @@
+.etcd-editor {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.etcd-editor-keys {
+  width: 250px;
+  border-right: 1px solid #e8e8e8;
+  padding: 55px 0px 10px;
+  position: relative;
+}
+.etcd-editor-search {
+  left: 10px;
+  top: 15px;
+  right: 10px;
+  position: absolute;
+}
+
+.etcd-editor-keys .ant-list-item {
+  word-break: break-all;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 3px solid rgba(0, 0, 0, 0);
+}
+
+.etcd-editor-keys .ant-list-item.selected {
+  border-left-color:#1890ff;
+}
+
+.etcd-editor-keys .ant-list-item:nth-child(odd){
+  background-color: #fff;
+}
+
+.etcd-editor-keys .ant-list-item span {
+  cursor: pointer;
+  display: block;
+}
+
+.etcd-editor-value {
+  position: absolute;
+  left: 250px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.etcd-editor-functions {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  padding: 10px;
+}
+
+.etcd-editor-functions .ant-btn {
+  margin-left: 10px;
+}
+
+.etcd-editor-value textarea {
+  width: 100%;
+  height: 100%;
+}
+
+.etcd-editor-value .CodeMirror {
+  height: 100%;
+}
+
+.etcd-editor-spin {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -45px 0 0 -25px;
+  z-index: 9;
+}

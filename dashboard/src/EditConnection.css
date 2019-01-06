@@ -1,0 +1,26 @@
+.edit-connection-form {
+  max-width: 600px;
+  margin: 60px auto 30px;
+  border: 1px solid rgba(0, 40, 100, 0.12);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  background-color: #fff;
+}
+.edit-connection-form form {
+  padding: 30px;
+}
+.edit-connection-form-title {
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 40, 100, 0.12);
+  padding: 0.5rem 1.5rem;
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+.edit-connection-form-button {
+  width: 100%;
+}
+
+.edit-connection-form-button:last-child {
+  margin-top: 15px;
+}
