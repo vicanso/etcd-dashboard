@@ -14,7 +14,6 @@ import (
 )
 
 func main() {
-
 	args := []string{}
 	if runtime.GOOS == "linux" {
 		args = append(args, "--class=Lorca")
@@ -22,6 +21,7 @@ func main() {
 	width := viper.GetInt("width")
 	height := viper.GetInt("height")
 	url := fmt.Sprintf("http://%s/", service.HTTPServe())
+	log.Println("linsten on:", url)
 	ui, err := lorca.New(url, "", width, height, args...)
 	if err != nil {
 		log.Fatalln(err)

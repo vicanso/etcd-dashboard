@@ -18,3 +18,4 @@ etcd-dashboard
 node_modules
 dist
 asset/a_asset-packr.go
+etcd-dashboard.app
