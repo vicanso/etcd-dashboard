@@ -1,8 +1,8 @@
 # etcd dashboard
 
 
-[](./images/create.png)
+![](./images/create.png)
 
-[](./images/connect.png)
+![](./images/connect.png)
 
-[](./images/list.png)
+![](./images/list.png)
